@@ -1,5 +1,6 @@
 #include "rs232.h"
 
+
 RS232::RS232(int comNum, int baudrate, int bytesize, int parity, int stopbit){
 
 
