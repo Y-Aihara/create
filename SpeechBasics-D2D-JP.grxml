@@ -16,6 +16,13 @@
         </one-of>
       </item>
       <item>
+        <tag>HALLO</tag>
+        <one-of>
+          <item> こんんにちは</item>
+          <item> ハロー </item>
+        </one-of>
+      </item>
+      <item>
         <tag>GOODEVENING</tag>
         <one-of>
           <item> こんばんは </item>
