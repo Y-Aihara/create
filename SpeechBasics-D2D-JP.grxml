@@ -1,0 +1,68 @@
+﻿<grammar version="1.0" xml:lang="ja-JP" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>GOODMORNING</tag>
+        <one-of>
+          <item> おはよう </item>
+          <item> おはようございます </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>HELLO</tag>
+        <one-of>
+          <item> こんにちは</item>
+          <item> ハロー </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>GOODEVENING</tag>
+        <one-of>
+          <item> こんばんは </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>NICETOMEETYOU</tag>
+        <one-of>
+          <item> はじめまして </item>
+          <item> なにこれ </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CALLEDNAME</tag>
+        <one-of>
+          <item> メイシー </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>THANKYOU</tag>
+        <one-of>
+          <item> ありがとう </item>
+          <item> ありがとうございます </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SEEYOU</tag>
+        <one-of>
+          <item> ばいばい </item>
+          <item> じゃあね </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MEGETERU</tag>
+        <one-of>
+          <item> しんどい </item>
+          <item> つかれた </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>MUCHABURI</tag>
+        <one-of>
+          <item> なにかはなして </item>
+          <item> おもしろいこといって </item>
+        </one-of>
+      </item>
+    
+    </one-of>
+  </rule>
+</grammar>
